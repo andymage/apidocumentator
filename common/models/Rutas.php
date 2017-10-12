@@ -18,7 +18,7 @@ use Yii;
  * @property Requests[] $requests
  * @property Proyectos $idProyecto
  */
-class Rutas extends \yii\db\ActiveRecord
+class Rutas extends ActiveRecord
 {
     /**
      * @inheritdoc
