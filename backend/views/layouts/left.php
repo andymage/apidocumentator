@@ -25,7 +25,10 @@
             </div>
         </form>
         <!-- /.search form -->
-
+        <?php
+            \yii\helpers\VarDumper::dump(Yii::$app->controller->module->requestedRoute, 10,true);die();
+            
+        ?>
         <?= dmstr\widgets\Menu::widget(
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],

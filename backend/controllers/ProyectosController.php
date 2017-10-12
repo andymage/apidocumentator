@@ -111,5 +111,6 @@ class ProyectosController extends Controller
     public function actionMenu($id){
         $model = Proyectos::findOne($id);
         $rutas = $model->rutas;
+        return $this->render('visualizacion');
     }
 }
